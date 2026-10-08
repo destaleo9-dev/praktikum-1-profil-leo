@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta Viewport untuk memastikan responsif di perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Destaleo Putra Vito - Rekayasa Perangkat Lunak</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi (Menggunakan Flexbox) -->
+    <header class="site-header">
+        <div class="container header-container">
+            <h1 class="logo">Portofolio<span>.</span></h1>
+            <nav>
+                <a href="#tentang">Tentang</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#portofolio">Portofolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="container">
+        
+        <!-- Bagian Hero / Tentang Saya -->
+        <section id="tentang" class="hero">
+            <img src="img/foto-profil.jpg" alt="Foto Profil Destaleo">
+            <div class="hero-content">
+                <h2>Halo, Saya Destaleo Putra Vito</h2>
+                <p>Saya adalah seorang pelajar SMK Konsentrasi Rekayasa Perangkat Lunak yang memiliki ketertarikan besar pada pengembangan web, desain antarmuka, dan teknologi masa depan. Bersemangat untuk terus belajar dan menciptakan karya digital yang bermanfaat.</p>
+            </div>
+        </section>
+
+        <!-- Bagian Keahlian (Menggunakan CSS Grid) -->
+        <section id="keahlian" class="skills">
+            <h2>Keahlian Saya</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <h3>HTML & CSS</h3>
+                    <p>Mampu menyusun struktur semantik web yang rapi serta mengatur tata letak modern menggunakan Flexbox dan Grid.</p>
+                </article>
+                <article class="card">
+                    <h3>JavaScript Dasar</h3>
+                    <p>Memahami logika pemrograman dasar interaktif untuk menangani DOM manipulation dan event handling.</p>
+                </article>
+                <article class="card">
+                    <h3>Desain Responsif</h3>
+                    <p>Terbiasa menerapkan pendekatan mobile-first design agar tampilan optimal di berbagai ukuran layar perangkat.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Bagian Galeri / Portofolio (Menggunakan CSS Grid) -->
+        <section id="portofolio" class="gallery">
+            <h2>Portofolio Proyek</h2>
+            <div class="grid-container">
+                <figure class="card">
+                    <img src="img/gameuler.jpg.png" alt="Proyek 1">
+                    <figcaption><strong>Worm Game</strong><br>Membuat game sederhana berbasis web.</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="img/dasbor.jpg.png" alt="Proyek 2">
+                    <figcaption><strong>Dasbor Penjualan</strong><br>Aplikasi berbasis web untuk pencatatan transaksi toko.</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="img/sertifikat.jpg.png" alt="Proyek 3">
+                    <figcaption><strong>Sertifikat Pelatihan</strong><br>Membuat sertifikat digital untuk pelatihan yang telah diikuti.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Destaleo. SMKS Brantas Karangkates. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
